@@ -5,7 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
-
+*promt*
+yaml
 # Distribution / packaging
 .Python
 build/

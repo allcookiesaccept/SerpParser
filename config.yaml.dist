@@ -1,0 +1,14 @@
+databases:
+  sqlite:
+    local_sqlite:
+      path: "/path/to/sqlite.db"
+  mongo:
+    mongo_atlas:
+      host: "cluster0.mongodb.net"
+      port: 27017
+      login: "${MONGO_USER}"
+      password: "${MONGO_PASS}"
+  bigquery:
+    bigquery_prod:
+      project_id: "my-project"
+      credentials_path: "/path/to/credentials.json"
